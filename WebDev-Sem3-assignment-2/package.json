@@ -1,0 +1,23 @@
+{
+  "name": "student-management-api",
+  "version": "1.0.0",
+  "description": "RESTful Student Management API built with Express.js for WebDev Assignment 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "student-management",
+    "nodejs"
+  ],
+  "author": "Pulkit Pradhan",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
