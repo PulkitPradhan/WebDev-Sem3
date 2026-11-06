@@ -1,0 +1,27 @@
+{
+  "name": "inventory-data-management-system",
+  "version": "1.0.0",
+  "description": "Inventory and Data Management System built with Express.js and Mongoose for WebDev Assignment 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "inventory-management",
+    "rest-api",
+    "nodejs"
+  ],
+  "author": "Pulkit Pradhan",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
