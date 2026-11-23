@@ -1,0 +1,21 @@
+> campus-management-api@1.1.0 test
+> node --test --test-reporter=spec
+
+✔ students can only list their own enrollments (0.926659ms)
+✔ faculty attendance summary is scoped to assigned sections (0.236922ms)
+✔ duplicate attendance is rejected and partial roster inserts are rolled back (0.155531ms)
+✔ section seat counter is rebuilt from active enrollments (1.005236ms)
+✔ capacity cannot be reduced below active enrollment count (0.207559ms)
+✔ major enrollment and attendance entities expose item CRUD routes (0.169983ms)
+✔ unexpected server errors do not expose internal messages (0.222761ms)
+✔ section creation does not trust a client-supplied seat counter (0.281379ms)
+✔ low-attendance report accepts a zero-percent threshold (0.284533ms)
+✔ Postman regression collection and OpenAPI contract are included (0.603498ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 64.612882
